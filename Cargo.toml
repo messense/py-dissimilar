@@ -1,0 +1,17 @@
+[package]
+name = "py-dissimilar"
+version = "0.1.0"
+edition = "2021"
+description = "A diff library with semantic cleanup"
+license = "MIT"
+repository = "https://github.com/messense/py-dissimilar"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "dissimilar"
+crate-type = ["cdylib"]
+
+[dependencies]
+dissimilar = "1.0.5"
+pyo3 = { version = "0.17.3", features = ["extension-module", "generate-import-lib"] }
