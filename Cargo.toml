@@ -13,5 +13,5 @@ name = "dissimilar"
 crate-type = ["cdylib"]
 
 [dependencies]
-dissimilar = "1.0.5"
-pyo3 = { version = "0.17.3", features = ["extension-module", "generate-import-lib"] }
+dissimilar = "1.0.6"
+pyo3 = { version = "0.18.0", features = ["extension-module", "generate-import-lib"] }
